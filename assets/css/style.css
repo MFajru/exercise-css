@@ -1,0 +1,130 @@
+/* Fonts */
+/* Custom 400 */
+@font-face {
+  font-family: robotoCustom;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+/* Custom 700 */
+@font-face {
+  font-family: robotoCustom;
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+
+/* Colors */
+:root {
+  /* PRIMARY */
+  --tomato: hsl(4, 100%, 67%);
+  --tomato-light: hsl(4, 100%, 95%);
+  /* NEUTRAL */
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+  /* GRADIENT */
+  --gradient-pink: #ff3e83;
+  --gradient-orange: #fd634a;
+  --gradient-shadow: #ff3e8355;
+}
+
+/* General Styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* body */
+body {
+  font-family: robotoCustom, sans-serif;
+  line-height: 1;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: var(--charcoal-grey);
+  min-width: 30rem;
+}
+
+/* card */
+.card {
+  background-color: var(--white);
+  width: 100%;
+  max-width: 48rem;
+  height: 100%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p,
+li {
+  line-height: 1.5;
+}
+
+/* btn  */
+
+.btn {
+  cursor: pointer;
+  padding: 2rem;
+  font-weight: 700;
+  color: var(--white);
+  background: var(--dark-slate-grey);
+  border-radius: 0.7rem;
+  border: none;
+  margin-bottom: 2.2rem;
+}
+
+/* sign-up card */
+.sign-up-img {
+  width: 100%;
+}
+
+.sign-up-text {
+  padding: 3rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.sign-up-list {
+  padding: 0 3rem;
+  list-style-type: "⏩";
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sign-up-list li {
+  padding-left: 1rem;
+}
+
+.sign-up-form {
+  position: relative;
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sign-up-form label {
+  font-weight: 700;
+}
+
+.sign-up-form input {
+  padding: 1.5rem 2rem;
+  border: 0.1rem solid var(--grey);
+  border-radius: 0.7rem;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+}

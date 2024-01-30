@@ -1,0 +1,69 @@
+/**********************/
+/*     over 480px     */
+/**********************/
+@media only screen and (min-width: 30em) {
+}
+
+/**********************/
+/*     over 640px     */
+/**********************/
+@media only screen and (min-width: 43em) {
+}
+
+/**********************/
+/*     over 928px     */
+/**********************/
+@media only screen and (min-width: 58em) {
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+  /* main */
+  main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  /* card */
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 60%;
+    max-height: 70%;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 16px;
+  }
+
+  /* h2 */
+  h2 {
+  }
+
+  /* sign up */
+  .sign-up-card {
+  }
+
+  /* sign up img*/
+  .sign-up-img {
+    content: url(../images/illustration-sign-up-desktop.svg);
+    width: 50%;
+    height: 100%;
+  }
+
+  /* sign up text*/
+  .sign-up-text {
+    width: 50%;
+  }
+}
+
+/**********************/
+/* Very small screens */
+/*     under 368px    */
+/**********************/
+@media (max-width: 23em) {
+}
